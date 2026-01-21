@@ -1,13 +1,6 @@
 # mdias-oled Theme Suite
 
-```
-  ███╗   ███╗██████╗ ██╗ █████╗ ███████╗        █████╗ ██╗     ███████╗██████╗
-  ████╗ ████║██╔══██╗██║██╔══██╗██╔════╝       ██╔══██╗██║     ██╔════╝██╔══██╗
-  ██╔████╔██║██║  ██║██║███████║███████╗█████╗ ██║  ██║██║     █████╗  ██║  ██║
-  ██║╚██╔╝██║██║  ██║██║██╔══██║╚════██║╚════╝ ██║  ██║██║     ██╔══╝  ██║  ██║
-  ██║ ╚═╝ ██║██████╔╝██║██║  ██║███████║       ╚█████╔╝███████╗███████╗██████╔╝
-  ╚═╝     ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝        ╚════╝ ╚══════╝╚══════╝╚═════╝
-```
+![MDIAS-OLED](images/logo.svg)
 
 A complete OLED-friendly theme suite for your terminal environment. Pure black backgrounds, marine green accents, and hot pink highlights. Inspired by **vaporwave** aesthetics.
 

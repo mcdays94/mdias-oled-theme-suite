@@ -1,6 +1,15 @@
 # mdias-oled Theme Suite
 
-A complete OLED-friendly theme suite for your terminal environment. Pure black backgrounds, marine green accents, and hot pink highlights.
+```
+  ███╗   ███╗██████╗ ██╗ █████╗ ███████╗        █████╗ ██╗     ███████╗██████╗
+  ████╗ ████║██╔══██╗██║██╔══██╗██╔════╝       ██╔══██╗██║     ██╔════╝██╔══██╗
+  ██╔████╔██║██║  ██║██║███████║███████╗█████╗ ██║  ██║██║     █████╗  ██║  ██║
+  ██║╚██╔╝██║██║  ██║██║██╔══██║╚════██║╚════╝ ██║  ██║██║     ██╔══╝  ██║  ██║
+  ██║ ╚═╝ ██║██████╔╝██║██║  ██║███████║       ╚█████╔╝███████╗███████╗██████╔╝
+  ╚═╝     ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝        ╚════╝ ╚══════╝╚══════╝╚═════╝
+```
+
+A complete OLED-friendly theme suite for your terminal environment. Pure black backgrounds, marine green accents, and hot pink highlights. Inspired by **vaporwave** aesthetics.
 
 ![OpenCode start screen](images/start.png)
 
@@ -117,6 +126,10 @@ source ~/path/to/mdias-oled-theme-suite/zsh/mdias-oled.zsh
 - **Vibrant marine green** - Eye-catching accent color that pops on black
 - **Hot pink highlights** - Bold accent for warnings and emphasis
 - **Consistent colors** - Same palette across all tools
+
+## Inspiration
+
+This theme draws inspiration from **vaporwave** aesthetics - combining neon cyans and hot pinks against pure black, evoking late-night coding sessions and retro-futuristic vibes.
 
 ## License
 

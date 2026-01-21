@@ -1,0 +1,29 @@
+# mdias-oled - Ghostty Theme
+# OLED-friendly theme with marine green and hot pink accents
+
+background = #000000
+foreground = #d4d4d4
+cursor-color = #00d9a0
+cursor-text = #000000
+selection-background = #3e4451
+selection-foreground = #d4d4d4
+
+# Standard colors (0-7)
+palette = 0=#000000
+palette = 1=#e06c75
+palette = 2=#56b6c2
+palette = 3=#ff2094
+palette = 4=#61afef
+palette = 5=#c678dd
+palette = 6=#00d9a0
+palette = 7=#d4d4d4
+
+# Bright colors (8-15)
+palette = 8=#5c6370
+palette = 9=#ff6b6b
+palette = 10=#00ffbb
+palette = 11=#ff5cb0
+palette = 12=#82aaff
+palette = 13=#c678dd
+palette = 14=#00ffbb
+palette = 15=#ffffff

@@ -1,0 +1,95 @@
+# mdias-oled eza color theme
+# Place in ~/.config/eza/theme.yml
+
+filenames:
+  # Config files
+  ".gitignore": { foreground: "#5c6370" }
+  ".gitconfig": { foreground: "#5c6370" }
+  ".zshrc": { foreground: "#00d9a0" }
+  ".bashrc": { foreground: "#00d9a0" }
+  "Makefile": { foreground: "#ff2094" }
+  "Dockerfile": { foreground: "#61afef" }
+  "docker-compose.yml": { foreground: "#61afef" }
+  "package.json": { foreground: "#ff2094" }
+  "tsconfig.json": { foreground: "#61afef" }
+  "README.md": { foreground: "#00d9a0" }
+
+extensions:
+  # Code
+  "js": { foreground: "#e5c07b" }
+  "ts": { foreground: "#61afef" }
+  "tsx": { foreground: "#61afef" }
+  "jsx": { foreground: "#e5c07b" }
+  "py": { foreground: "#61afef" }
+  "go": { foreground: "#00d9a0" }
+  "rs": { foreground: "#e06c75" }
+  "rb": { foreground: "#e06c75" }
+  "sh": { foreground: "#00d9a0" }
+  "zsh": { foreground: "#00d9a0" }
+  
+  # Web
+  "html": { foreground: "#e06c75" }
+  "css": { foreground: "#61afef" }
+  "scss": { foreground: "#ff2094" }
+  "json": { foreground: "#e5c07b" }
+  "yml": { foreground: "#e06c75" }
+  "yaml": { foreground: "#e06c75" }
+  "toml": { foreground: "#e06c75" }
+  
+  # Docs
+  "md": { foreground: "#56b6c2" }
+  "txt": { foreground: "#d4d4d4" }
+  "pdf": { foreground: "#e06c75" }
+  
+  # Images
+  "png": { foreground: "#c678dd" }
+  "jpg": { foreground: "#c678dd" }
+  "jpeg": { foreground: "#c678dd" }
+  "gif": { foreground: "#c678dd" }
+  "svg": { foreground: "#c678dd" }
+  "ico": { foreground: "#c678dd" }
+  "webp": { foreground: "#c678dd" }
+  
+  # Archives
+  "zip": { foreground: "#e5c07b" }
+  "tar": { foreground: "#e5c07b" }
+  "gz": { foreground: "#e5c07b" }
+  "rar": { foreground: "#e5c07b" }
+  "7z": { foreground: "#e5c07b" }
+
+filekinds:
+  directory: { foreground: "#00d9a0" }
+  symlink: { foreground: "#56b6c2" }
+  executable: { foreground: "#ff2094" }
+
+perms:
+  user_read: { foreground: "#00d9a0" }
+  user_write: { foreground: "#e5c07b" }
+  user_execute: { foreground: "#e06c75" }
+  group_read: { foreground: "#00d9a0" }
+  group_write: { foreground: "#e5c07b" }
+  group_execute: { foreground: "#e06c75" }
+  other_read: { foreground: "#00d9a0" }
+  other_write: { foreground: "#e5c07b" }
+  other_execute: { foreground: "#e06c75" }
+
+size:
+  number: { foreground: "#00d9a0" }
+  unit: { foreground: "#56b6c2" }
+
+users:
+  user_you: { foreground: "#00d9a0" }
+  group_yours: { foreground: "#56b6c2" }
+
+date:
+  hour_old: { foreground: "#00d9a0" }
+  day_old: { foreground: "#56b6c2" }
+  older: { foreground: "#5c6370" }
+
+git:
+  new: { foreground: "#00d9a0" }
+  modified: { foreground: "#e5c07b" }
+  deleted: { foreground: "#e06c75" }
+  renamed: { foreground: "#61afef" }
+  ignored: { foreground: "#5c6370" }
+  conflicted: { foreground: "#ff2094" }

@@ -15,6 +15,7 @@ A complete OLED-friendly theme suite for your terminal environment. Pure black b
 | **OpenCode** | Full theme with syntax highlighting |
 | **Ghostty** | Terminal color scheme |
 | **tmux** | Status bar styling |
+| **eza** | Colored file listings by extension |
 | **zsh** | Prompt colors and eza aliases |
 
 ## Color Palette
@@ -73,14 +74,38 @@ source-file ~/path/to/mdias-oled-theme-suite/tmux/mdias-oled.conf
 
 Or copy the contents directly into your `.tmux.conf`.
 
-### zsh (optional)
+### eza (colored ls)
 
-For colored `ls` output, install eza:
+The installer will offer to install eza automatically. If you prefer manual installation:
+
 ```bash
+# macOS
 brew install eza
+
+# Ubuntu/Debian
+sudo apt install eza
+
+# Arch
+sudo pacman -S eza
 ```
 
-Then add to `~/.zshrc`:
+Copy the theme:
+```bash
+mkdir -p ~/.config/eza
+cp eza/theme.yml ~/.config/eza/theme.yml
+```
+
+Add aliases to `~/.zshrc`:
+```bash
+alias ls="eza --color=always --icons=auto"
+alias ll="eza -l --color=always --icons=auto"
+alias la="eza -la --color=always --icons=auto"
+alias lt="eza -T --color=always --icons=auto"
+```
+
+### zsh (optional)
+
+For the full zsh snippet with prompt colors, add to `~/.zshrc`:
 ```bash
 source ~/path/to/mdias-oled-theme-suite/zsh/mdias-oled.zsh
 ```
